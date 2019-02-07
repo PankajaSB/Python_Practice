@@ -1,7 +1,14 @@
+"""The changes has been added by sanjay 
+
+
+"""
+
+
+
 def readinput():
     "This function reads users height and weight"
-    users_height = float(input("Enter height in m\n"))
-    users_weight = float(input("Enter weiight in kg\n"))
+    users_height = float(input("Enter height in metre\n"))
+    users_weight = float(input("Enter weight in kg\n"))
     return users_height, users_weight
 
 def calculate_bmi(users_height,users_weight):
